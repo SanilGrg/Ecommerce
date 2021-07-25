@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+.header .top {
+  padding: 10px 0;
+  border-bottom: 1px solid #efefef; }
+.header ul li {
+  font-size: 13px;
+  font-weight: 500; }
+  .header ul li a {
+    padding: 10px;
+    color: #000;
+    font-size: 13px;
+    font-weight: 500; }
+    .header ul li a:hover {
+      color: #f6344b; }
+.header .dropdown-menu {
+  min-width: 129px;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; }
+  .header .dropdown-menu a:hover {
+    background: transparent; }
+.header .bottom {
+  padding: 30px 0; }
+.header .left {
+  display: flex;
+  justify-content: flex-start; }
+  .header .left .cart {
+    border: 1px solid #efefef;
+    padding: 0px 15px;
+    color: #f6344b;
+    font-size: 25px;
+    line-height: 45px;
+    height: 47px; }
+  .header .left .amount {
+    border: 1px solid #efefef;
+    border-left: none;
+    padding: 10px;
+    height: 47px;
+    line-height: 30px; }
+.header .right {
+  display: flex;
+  justify-content: flex-end; }
+.header .search-icon {
+  color: #f6344b;
+  border: 1px solid #efefef;
+  font-size: 25px;
+  padding: 4px 10px; }
+.header .searchbox {
+  border: 1px solid #efefef; }
+  .header .searchbox .search {
+    padding: 0 15px;
+    height: 47px;
+    width: 250px;
+    font-size: 13px;
+    border: #efefef; }
+
+.nav .dropdown-toggle::after {
+  display: none; }
+.nav .navbar-nav {
+  border: 3px solid #ccc;
+  border-left: none;
+  border-right: none;
+  width: 100%; }
+  .nav .navbar-nav .nav-item:hover {
+    background: #f6344b; }
+  .nav .navbar-nav .nav-item .nav-link {
+    color: #000;
+    font-weight: 500;
+    padding: 15px 20px; }
+    .nav .navbar-nav .nav-item .nav-link:hover {
+      color: #fff; }
+  .nav .navbar-nav .nav-item .nav-link .active {
+    background: #f6344b; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #222222; }
+  body main {
+    background: #fff; }
+  body ul {
+    margin: 0;
+    padding: 0; }
+    body ul li {
+      list-style: none;
+      display: inline; }
+      body ul li a {
+        text-decoration: none; }
+  body .container {
+    max-width: 1300px;
+    background: #fff; }
+
+/*# sourceMappingURL=style.css.map */
