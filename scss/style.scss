@@ -1,0 +1,43 @@
+@import 'header';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import 'nav';
+@import 'slider';
+@import 'var';
+@import 'arrivals';
+@import 'owl';
+@import 'blog';
+@import 'owl2';
+@import 'banner';
+@import 'contact';
+@import 'footer';
+body 
+{
+    font-family: 'Poppins', sans-serif;
+    background: #222222;
+   main 
+   {
+       background: #fff;
+   }
+    ul 
+    {
+        margin: 0;
+        padding: 0;
+        li 
+        {
+            list-style: none;
+            display: inline;
+           
+            a 
+            {
+                text-decoration: none;
+            }
+        }
+    }
+    .container 
+    {
+        max-width: 1260px;
+        background: #fff;
+        
+    }
+    
+}

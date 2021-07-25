@@ -1,0 +1,240 @@
+.nav
+{
+
+    .dropdown-toggle::after 
+    {
+            display: none;
+    }
+    .navbar-nav
+    {
+        border: 3px solid #ccc;
+        border-left: none;
+        border-right: none;
+        width: 100%;
+        .nav-item 
+        {
+            position: relative;
+            &:hover 
+            {
+                background: #f6344b;
+            }
+            .nav-link
+            {
+            color: #000;
+            font-weight: 500;
+            padding: 15px 20px;
+            &:hover 
+                {
+                    color: #fff;
+                }
+            }
+            .nav-link .active
+            {
+                background: #f6344b;
+            }
+        }
+    }
+   
+}
+   
+.navbar .dropdown-menu
+{
+    position:static;
+
+    .mega-menu 
+    {
+        width: 1220px;
+        left: -166px;
+        right: 0;
+        position: absolute;
+        z-index: 999;
+        background-color: #fff;
+        top: 2px;
+        padding: 15px 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        .mega-head
+        {
+            h6 
+            {
+                font-size: 15px;
+                font-weight: 600;
+                padding: 5px 0;
+            }
+        }
+       .mega-item 
+       {
+           padding: 5px 0;
+           .mega-link 
+           {
+               
+                font-size: 15px;
+                font-weight: 300;
+                padding: 15px 0;
+                color: #000;
+                &:hover 
+                {
+                    color: #f6344b;
+                }
+           }
+       }
+        img 
+        {
+            position: absolute;
+            right: 0;
+            &:hover 
+            {
+                background: #f6344b;
+                opacity: 0.5;
+                z-index: 999;
+            }
+        }
+    
+    }  
+    .mega-menu1 
+    {   
+        width: 1213px;
+        left: -195%;
+        right: 0;
+        position: absolute;
+        background-color: #fff;
+        top: 2px;
+        padding: 15px 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        .mega-head
+        {
+            h6 
+            {
+                font-size: 15px;
+                font-weight: 600;
+                padding: 5px 0;
+            }
+        }
+       .mega-item 
+       {
+           padding: 5px 0;
+           .mega-link 
+           {
+               
+                font-size: 15px;
+                font-weight: 300;
+                padding: 15px 0;
+                color: #000;
+                &:hover 
+                {
+                    color: #f6344b;
+                }
+           }
+       }
+        img 
+        {
+            position: absolute;
+            right: 0;
+            &:hover 
+            {
+                background: #f6344b;
+                opacity: 0.5;
+                z-index: 999;
+            }
+        } 
+         
+    } 
+       
+    .mega-menu2 
+    {   
+        width: 1213px;
+        left: -310%;
+        right: 0;
+        position: absolute;
+        background-color: #fff;
+        top: 2px;
+        padding: 15px 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        .mega-head
+        {
+            h6 
+            {
+                font-size: 15px;
+                font-weight: 600;
+                padding: 5px 0;
+            }
+        }
+       .mega-item 
+       {
+           padding: 5px 0;
+           .mega-link 
+           {
+               
+                font-size: 15px;
+                font-weight: 300;
+                padding: 15px 0;
+                color: #000;
+                &:hover 
+                {
+                    color: #f6344b;
+                }
+           }
+       }
+        img 
+        {
+            position: absolute;
+            right: 0;
+            &:hover 
+            {
+                background: #f6344b;
+                opacity: 0.5;
+                z-index: 999;
+            }
+        } 
+         
+    } 
+    .mega-menu3 
+    {   
+        width: 1213px;
+        left: -394%;
+        right: 0;
+        position: absolute;
+        background-color: #fff;
+        top: 2px;
+        padding: 15px 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        .mega-head
+        {
+            h6 
+            {
+                font-size: 15px;
+                font-weight: 600;
+                padding: 5px 0;
+            }
+        }
+       .mega-item 
+       {
+           padding: 5px 0;
+           .mega-link 
+           {
+               
+                font-size: 15px;
+                font-weight: 300;
+                padding: 15px 0;
+                color: #000;
+                &:hover 
+                {
+                    color: #f6344b;
+                }
+           }
+       }
+        img 
+        {
+            position: absolute;
+            right: 0;
+            &:hover 
+            {
+                background: #f6344b;
+                opacity: 0.5;
+                z-index: 999;
+            }
+        } 
+         
+    } 
+}
+
+   

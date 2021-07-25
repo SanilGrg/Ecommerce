@@ -1,0 +1,195 @@
+.owl 
+{
+    position: relative;
+    .title 
+    {
+        line-height: 40px;
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+        border-bottom: 4px solid #eee;
+        padding-bottom: 6px;
+    }
+    .owl-carousel 
+    {
+        a 
+        {
+            padding: 10px;
+            img 
+            {
+                padding-left: 10px;
+            }
+        }
+    }
+    .owl-nav 
+    {
+        position: absolute;
+        top: -34px;
+        right: 0;
+    }
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-d
+    {
+        width: 30px;
+        height: 30px;
+        font-size: 25px;
+        border: 1px solid #eee;
+        text-align: center;
+        line-height: 25px;
+
+    }
+    .imagebox
+        {
+            position: relative;
+            overflow: hidden;
+            margin: 20px 0;
+            opacity: 1;
+            transition: 0.9s;
+            &:hover
+            {
+                opacity: 0.5;
+              
+            }
+            &:hover .innerleft
+            {
+                transform: translate(0px, 0);
+                background: #444;
+                transition: all 0.14s ease 0s;
+                opacity: 1;
+                z-index: 0;
+            }
+            &:hover .innerleft1
+            {
+                transform: translate(0px, 0);
+                background: #444;
+                transition: all 0.11s ease 0s;
+                opacity: 1;
+                z-index: 1;
+            }
+            &:hover .innerleft2
+            {
+                transform: translate(0px, 0);
+                background: #444;
+                transition: all 0.8s ease 0s;
+                opacity: 1;
+                z-index: 2;
+            }
+            &:hover .innerleft3
+            {
+                transform: translate(0px, 0);
+                background: #444;
+                transition: all 0.6s ease 0s;
+                opacity: 1;
+                z-index: 3;
+            }
+           img 
+           {
+               transition: 0.9s;
+               &:hover 
+               {
+                   transform: scale(1.1);
+               }
+           }
+           .innerleft 
+           {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background: #333;
+            top: 93px;
+            left: 0;
+            color: #fff;
+            transform: translate(-40px, 0);
+            text-align: center;
+            padding: 7px 0;
+                a 
+                {
+                    color: #fff;
+                }
+                &:hover 
+                {
+                    background: #f6344b;
+                    width: 80px;
+                }
+            }
+           .innerleft1
+           {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background: #333;
+            top: 140px;
+            left: 0;
+            color: #fff;
+            transform: translate(-40px, 0);
+            text-align: center;
+            padding: 7px 0;
+                a 
+                {
+                    color: #fff;
+                }
+                &:hover 
+                {
+                    background: #f6344b;
+                    width: 80px;
+                }
+           }
+           .innerleft2 
+           {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background: #333;
+            top: 187px;
+            left: 0;
+            color: #fff;
+            transform: translate(-40px, 0);
+            text-align: center;
+            padding: 7px 0;
+                a 
+                {
+                    color: #fff;
+                }
+                &:hover 
+                {
+                    background: #f6344b;
+                    width: 80px;
+                }
+           }
+           .innerleft3 
+           {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background: #333;
+            bottom: 121px;
+            left: 0;
+            color: #fff;
+            transform: translate(-40px, 0);
+            text-align: center;
+            padding: 7px 0;
+                a 
+                {
+                    color: #fff;
+                }
+                &:hover 
+                {
+                    background: #f6344b;
+                    width: 80px;
+                }
+           }
+           h6 
+        {
+            color: #f6344b;
+            font-size: 14px;
+        }
+        h5 
+        {
+            color:#D02323;
+        }
+        i 
+        {
+            font-size: 14px;
+            color: rgb(165, 161, 161);
+        }
+        }
+}

@@ -1,0 +1,31 @@
+.contact 
+{
+    .details 
+    {
+        background: #f6344b;
+        height: 150px;
+    }    
+    .contact-details 
+    {
+        padding: 20px 0;
+        ul 
+        {
+            li 
+            {
+                padding-left: 20px;
+                color: #fff;
+                font-size: 14px;
+                i 
+                {
+                    padding-right: 10px;
+                    font-size: 32px;
+                }
+                a 
+                {
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

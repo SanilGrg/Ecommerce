@@ -1,0 +1,102 @@
+.banner 
+{
+    .image 
+    {
+        position: relative;
+        a:hover 
+        {
+            opacity: 0.8;
+        }
+    }
+    .offer 
+    {
+        position: absolute;
+        top: 105px;
+        left: 30px;
+    }
+    .first 
+    {
+        font-size: 15px;
+        color: #999;
+        margin-bottom: 0;
+        font-weight: 200;
+    }
+    h6 
+    {
+        font-size: 23px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    .second 
+    {
+        font-size: 18px;
+        color: #999;
+        font-weight: 200;
+    }
+    .discount 
+    {
+        position: absolute;
+        top: 66px;
+        right: 123px;
+        background: #D02323;
+        border-radius: 50%;
+        opacity: 0.8;
+        h6 
+        {
+            color: #fff;
+            font-size: 13px;
+            padding: 15px;
+        }
+    }
+    .offer1 
+    {
+        position: absolute;
+        top: 20px;
+        left: 22%;
+        text-align: center;
+        p
+        {
+            font-size: 20px;
+            font-weight: 200;
+            color: #999;
+        }
+    }
+    .offer2 
+    {
+        position: absolute;
+        bottom: 0;
+        left: 22%;
+        h2 
+        {
+            color: #D02323;
+            font-weight: 600;
+            font-size: 53px;
+        }
+        p 
+        {
+            color: #f6344b;
+            font-size: 17px;
+            text-align: center;
+            font-weight: 600;
+        }
+    }
+    .discount1 
+    {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-radius: 150% 0 0 0;
+        background: #f6344b;
+        padding: 25px 4px 4px 26px;;
+        p 
+        {
+            margin-bottom: 0;
+            color: #fff;
+            font-size: 11px;
+        }
+        h6 
+        {
+            color: #fff;
+        }
+    }
+}

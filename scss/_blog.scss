@@ -1,0 +1,149 @@
+.blog 
+{
+    .heading 
+    {
+        font-size: 24px;
+        font-weight: 600;
+        border-bottom: 4px solid #eee;
+    }
+    span 
+    {
+        font-size: 30px;
+        color: #ccc;
+    }
+    p 
+    {
+        font-style: italic;
+        font-weight: 300;
+        font-size: 15px;
+    }
+    .teamname 
+    {
+        h6 
+        {
+            font-weight: 600;
+            font-size: 15px;
+            margin-bottom: 0;
+        }
+        p 
+        {
+            font-size: 10px;
+            color: #ccc;
+        }
+    }
+    .carousel-indicators [data-bs-target] 
+    {
+        width: 80px;
+        height: 70px;
+        padding: 0;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        cursor: pointer;
+        border: 0;
+        position: relative;
+        bottom: -88px;
+        &:hover 
+        {
+            border: 2px solid red;
+        }
+    }
+    .article 
+    {
+        justify-content: space-between;
+        margin: 20px 0;
+       .left 
+       {
+           margin-right: 15px;
+           .content 
+           {
+               h6 
+               {
+                   margin-top: 10px;
+                   font-weight: 600;
+               }
+               .para 
+               {
+                   font-size: 13px;
+                   font-style: none;
+                   margin-bottom: 0;
+               }
+               .icons 
+               {
+                   a 
+                   {
+                    color: #ccc;
+                    font-size: 12px;
+                    padding-right: 10px;
+                    text-decoration: none;
+                   }
+               
+                 i 
+                 {
+                     padding-right: 5px;
+                 }
+               }
+               .ext 
+               {
+                   color: #D02323;
+                   font-weight: 500;
+                   font-size: 12px;
+                   i 
+                   {
+                       width: 15px;
+                   }
+                   a 
+                   {
+                       text-decoration: none;
+                   }
+               }
+           }
+       }
+       .right
+       {
+           margin-right: 15px;
+           .content 
+           {
+               h6 
+               {
+                   margin-top: 10px;
+                   font-weight: 600;
+               }
+               .para 
+               {
+                   font-size: 13px;
+                   font-style: none;
+                   margin-bottom: 0;
+               }
+               .icons 
+               {
+                   a 
+                   {
+                    color: #ccc;
+                    font-size: 12px;
+                    padding-right: 10px;
+                    text-decoration: none;
+                   }
+                 i 
+                 {
+                     padding-right: 5px;
+                 }
+               }
+               .ext 
+               {
+                   color: #D02323;
+                   font-weight: 500;
+                   font-size: 12px;
+                   i 
+                   {
+                       width: 15px;
+                   }
+                   a 
+                   {
+                       text-decoration: none;
+                   }
+               }
+           }
+       }
+    }
+}
